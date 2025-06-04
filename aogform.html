@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>AOG Design Form</title>
+    <link rel="icon" type="image/x-icon" href="aogpics/aogico.ico">
+    <link rel="stylesheet" href="aogformstyles.css">
+    <script src="aogactions.js"></script>
+    </head>
+
+    <body class="form_main_body"></body>
+    <div class="outer_form_container" id="outer_form_container_alt">
+        <div class="intro_form_container" id="intro_form_container_alt">
+            <h1 class="intro_form_heading">Send us a message and we'll get back to you ASAP!</h1>
+            <br>
+                <br>
+                    <br>
+            <img class="intro_form_pic_heading" src="aogpics/aog-removebg-preview.png">
+        </div>
+    </div>
+    <div class="middle_form_container" id="middle_form_container_alt">
+        <div class="inner_form_container" id="inner_form_container_alt">
+            <form id="customer_form_alt" action="https://formspree.io/f/mzzekeqg" method="POST">
+                <div class="f_name_container">
+                    <br>
+                        <br>
+                            <br>
+                <label class="f_name_lab">First name:</label>
+                <br>
+                <input class="f_name_in" name="fname" >
+                </div>
+                <div class="l_name_container">
+                <br>
+                    <br>
+                        <br>
+                        <label class="l_name_lab">Last name:</label>
+                    <br>
+                        <input class="l_name_in" name="lname">
+                    </div>
+                    <br>
+                        <br>
+                    <div class="em_comtainer">
+                        <label class="em_lab">Email:</label>
+                    <br>
+                        <input class="em_in" type="email" name="email">
+                        <br>
+                        <input type="text" name="_gotcha" style="display:none" />
+                    </div>
+                    <br>
+                    <div class="mess_container">
+                        <label class="mess_lab">Message:</label>
+                 
+                        <br>
+                        <br>
+                        <br>
+                        <textarea class="mess_box" type="text" name="message"></textarea>
+                        <br>
+                        <br>
+                    </div>
+                    <br>
+                        <br>
+                    <button class="sub_button" type="submit"  value="Submit">Submit</button>
+            </form>
+            </div>
+        </div>
+</html>

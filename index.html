@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AOG Design</title>
+        <link rel="icon" type="image/x-icon" href="aogpics/aogico.ico">
+        <link rel="stylesheet" href="aogstyles.css">
+        <script src="aogactions.js"></script>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jackson Zenisek">
+        <meta name="Languages" content="html, css, js, php">
+    </head>
+    <body class="main_body"></body>
+    <button class="btt_button" id="btt_button_alt" onclick="gototopofpage()"><img class="btt_symb" id="btt_symb_alt" src="aogpics/bttimg-removebg-preview.png"></button>
+    <header class="top_header_sec">
+        <div class="main_top_container">
+            <div class="main_logo_container" id="main_logo_container_alt">
+                <a class="home_ref" onclick="ref_page()"><img class="aog_img" id="aog_img_alt" src="aogpics/aog-removebg-preview.png"></a>
+            </div>
+            <div class="mobile_side_menu" id="mobile_side_menu_alt" onclick="closemobilemenu()">
+                <button class="mobile_menu_exit_button" alt="mobile_menu_exit_button_alt">
+                    <div class="xp1" id="xp1_alt"></div>
+                    <div class="xp2" id="xp2_alt"></div>
+                </button>
+                <br>
+                    <br>
+                <button class="mobile_about" id="mobile_about_alt" onclick="showmobileabout()">About</button>
+                <br>
+                    <br>
+                <button class="services_about" id="services_about_alt" onclick="showmobileservices()">Services</button>
+                <br>
+                    <br>
+                <button class="gallery_about" id="services_about_alt" onclick="showmobilegallery()">Gallery</button>
+            </div>
+            <button class="mobile_open_menu" id="mobile_open_menu_alt" onclick="openmobilemenu()">
+                <div class="op1"></div>
+                <br>
+                <div class="op2"></div>
+                <br>
+                <div class="op3"></div>
+            </button>
+            <div class="tabs_container" id="tabs_container_alt">
+                <button class="about_b" onclick="show_about_page()">About</button>
+                <button class="serv_b" onclick="dis_serv_list()">Services<div class="arr_1"></div><div class="arr_2"></div></button>
+                <button class="gal_b" onclick="show_gal_page()">Gallery</button>
+               <button class="cu_b" target="_blank" onclick="document.location='aogform.html'" onclick="proceed_to_form_page()">Contact Us</button>
+               <div class="options_container" id="options_container_alt">
+                <button class="all_tabs" onclick="gotoroofing()">Roofing</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gotodrywall()">Drywall</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gotoconcrete()">Concrete</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gotoframing()">Framing</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gotopainting()">Paint</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gotoflooring()">Flooring</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gotolandscape()">Landscape</button>
+                <br>
+                    <br>
+                <button class="all_tabs" onclick="gototile()">Tile</button>
+               </div>
+            </div> 
+            </div>
+    </header>
+    <br>
+    <div class="intro_heading_container" id="intro_heading_container_alt">
+        <img class="main_banner" src="aogpics/woodplanks.png">
+        <h2 class="introduction_heading" id="introduction_heading_alt"><b>Welcome to AOG Design!</b></h2>
+        <p class="introduction_desc" id="introduction_desc_alt"><b>We are a local remodeling business in the Austin Area. We are ready to work with you on your home remodeling needs.<br> Contact us for your next project, and we'll get to work!</b></p>
+    </div>
+    <br>
+    <div class="home_page_container" id="home_page_container_alt">
+        <div class="general_cont_container" id="general_cont_container_alt">
+            <div class="pho_box" id="pho_box_alt">
+                <img class="pho_ico" id="pho_ico_alt" src="aogpics/phoneico.png">
+                
+                <p class="num_1" id="num_1_alt">Pedro Ojeda: <a class="p_pho" id="p_pho1_alt" href="tel:512-986-2222">512-986-2222</a></p>
+                <p class="num_2" id="num_2_alt">Alex Ojeda: <a class="a_pho" id="a_pho2_alt" href="tel:737-298-0874">737-298-0874</a></p>
+             
+            </div>
+            <div class="mail_box_container" id="mail_box_container_alt">
+                <div class="mail_box" id="mail_box_alt">
+                    <img class="mail_ico" src="aogpics/mailicon.png">
+                    <div class="mail_box_inner">
+                        <br>
+                        <a class="mail_1" id="mail_1_alt" href="mailto:aog51209@gmail.com">aog51209@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+            <br>
+        <div class="rec_wor_container" id="rec_wor_container_alt">
+            <h1 class="rec_wor_heading">Featured Work</h1>
+            <div class="rec_wor_photo_box_outer" id="rec_wor_photo_box_outer_alt">
+                <div class="rec_work_box_1" id="rec_work_box_1_alt">
+                    <img class="all_pic" src="aogpics/pic1.png">
+                    <br>
+                    <p class="first_pic_desc">Bathroom Cabinet Residential Remodel</p>
+                </div>
+                <div class="rec_work_box_2" id="rec_work_box_2_alt">
+                    <img class="all_pic" src="aogpics/pic2.png">
+                    <br>
+                    <p class="first_pic_desc">Wooden Floor Residential Remodel</p>
+                </div>
+                <div class="rec_work_box_3" id="rec_work_box_3_alt">
+                    <img class="all_pic" src="aogpics/pic3.png">
+                    <br>
+                    <p class="first_pic_desc">Shower Tile Residential Remodel</p>
+                </div>
+                <div class="rec_work_box_4" id="rec_work_box_4_alt">
+                    <img class="all_pic" src="aogpics/pic4.png">
+                    <br>
+                    <p class="first_pic_desc">Mobile Home Stucco Skirt</p>
+                </div>
+                <div class="rec_work_box_5" id="rec_work_box_5_alt">
+                    <img class="all_pic" src="aogpics/pic5.png">
+                    <br>
+                    <p class="first_pic_desc">Outdoor Pool Deck and Wall Residential Remodel</p>
+                </div>
+
+                <div class="rec_work_box_6" id="rec_work_box_6_alt">
+                    <img class="all_pic" src="aogpics/pic6.png">
+                    <br>
+                    <p class="first_pic_desc">Outdoor Room Framing Residential Remodel</p>
+                </div>
+            </div>
+        </div>
+        <br>
+            <br>
+                <br>
+        <div class="loc_container" id="loc_container_alt">
+            <span class="dots_divs" id="dots_divs_alt">*Austin *Cedar Park *Georgetown *Leander</span>
+        </div>
+        <br>
+            <br>
+        <div class="smed_links_container">
+            <a href="https://www.facebook.com/profile.php?id=100089460840065"><img class="fbook_ico" src="aogpics/fbookico.png"></a>
+        </div>
+        <br>
+            <br>
+                <br>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                                    <br>
+                                        <br>
+        <div class="cust_rev_container" id="cust_rev_container_alt">
+            <h3 class="reviews_section_heading">Customer Reviews</h3>
+            <p class="reviews_section_note">Note: Only customers of AOG Design can post a review</p>
+        <iframe class="reviews_section" id="reviews_section_alt" src="aogdesignreviewspage.html"></iframe>
+        </div>
+    </div>
+    <div class="main_about_container" id="main_about_container_alt">
+        <h4 class="about_aog_design" id="about_aog_design_alt">About AOG Design</h4>
+        <p class="aog_desc" id="aog_desc_alt" >AOG Design has been in business for 15 years, helping home owners in the Austin area with residential remodeling.<br>
+        The main focus of AOG Design is to provide it's customers with exceptional quality service. We believe at AOG Design that it is the<br>
+        customer's satisfication that matters the most, and that our work will serve as a reminder that they can count on AOG Design with home remodeling needs.
+        </p>
+        <br>
+            <br>
+                <br>
+                    <br>
+                        <br>
+                            <br>
+        <h3 class="m_t_t_h" id="m_t_t_h_alt">Meet the Team</h3>
+        <div class="p_oje_container">
+            <div class="p_oje_inner_container" id="p_oje_inner_container_alt">
+                <div class="p_oje_pic_container">
+                    <img class="p_ojeda_pic" src="aogpics/pojeda.png">
+                </div>
+                <p class="po_name" id="po_name_alt"><b>Pedro Ojeda<br>Co-Owner</b></p>
+                <p class="po_desc" id="po_desc_alt">Pedro is the co-owner of AOG Design. He has been working in home remodeling for 30 years, and has a strong skill set in construction.
+                Pedro is best known for his abilities in leadership, communication, and the mindset of getting the job done in a neat and workmanlike manner. He will work with you to deliver the best remodeling results.
+                </p>
+            </div>
+        </div>
+        <br>
+            <br>
+        <div class="a_oje_container">
+            <div class="a_oje_inner_container" id="a_oje_inner_container_alt">
+                <div class="a_oje_pic_container">
+                    <img class="a_ojeda_pic" src="aogpics/aojeda.png">
+                </div>
+                <p class="ao_name" id="ao_name_alt"><b>Alex Ojeda<br>Co-Owner</b></p>
+                <p class="ao_desc" id="ao_desc_alt">Alex Ojeda is the co-owner of AOG Design. He is Pedro's son and works along side with him to get remodeling projects done. He has 8 years of experience in residential remodeling and 
+                    has the skills to work efficiently and effectively.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+        <br>
+            <br>
+    <div class="main_serv_container" id="main_serv_container_alt">
+        <h5 class="serv_heading">Services</h5>
+        <p class="main_serv_desc">AOG Design offers a great variety of services for indoor and outdoor remodeling!</p>
+        <br>
+            <br>
+                <br>
+                    <br>
+        <div class="roof_main_container" id="roof_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Roofing</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design works with different types of roofing such as gable roof, hip hip, metal roof, and more.</p>
+            </div>
+            <div class="roof_pic_container" id="roof_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="roof1_alt" src="aogpics/gableroof.png">
+                    <img class="allpics2" id="roof2_alt" src="aogpics/gableroof2.png">
+                    <img class="allpics3" id="roof3_alt" src="aogpics/metalroof.png">
+                </div>
+                <br>
+                <div class="roof_pic_controls_container" id="roof_pic_controls_container_alt">
+                    <button class="prev_roof" id="prev_roof_button"><img class="prev_roof_img" src="aogpics/previous.png"></button>
+                    <button class="next_roof" id="next_roof_button"><img class="next_roof_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <br>
+            <br>
+             
+        <div class="drywall_main_container" id="drywall_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Drywall</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design will help you install drywall for a neat and finished home look. We assure you excellent results after the installation.</p>
+            </div>
+            <div class="drywall_pic_container" id="drywall_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="drywall1_alt" src="aogpics/drywall1.png">
+                    <img class="allpics2" id="drywall2_alt" src="aogpics/drywall2.png">
+                    <img class="allpics3" id="drywall3_alt" src="aogpics/drywall3.png">
+                </div>
+                <br>
+                <div class="drywall_pic_controls_container" id="drywall_pic_controls_container_alt">
+                    <button class="prev_drywall" id="prev_drywall_button"><img class="prev_drywall_img" src="aogpics/previous.png"></button>
+                    <button class="next_drywall" id="next_drywall_button"><img class="next_drywall_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="concrete_main_container" id="concrete_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Concrete</h6>
+                <p class="all_desc" id="all_desc_alt">AOF Design will design and build your concrete foundation for future structures!</p>
+            </div>
+            <div class="concrete_pic_container" id="concrete_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="conc1_alt" src="aogpics/concrete1.png">
+                    <img class="allpics2" id="conc2_alt" src="aogpics/concrete2.png">
+                </div>
+            <br>
+                <div class="concrete_pic_controls_container" id="concrete_pic_controls_container_alt">
+                    <button class="prev_concrete" id="prev_concrete_button"><img class="prev_concrete_img" src="aogpics/previous.png"></button>
+                    <button class="next_concrete" id="next_concrete_button"><img class="next_concrete_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="framing_main_container" id="framing_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Framing</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design will install residential studs for future drywall installation!</p>
+            </div>
+            <div class="fram_pic_container" id="fram_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="fram1_alt" src="aogpics/framing1.png">
+                    <img class="allpics2" id="fram2_alt" src="aogpics/framing2.png">
+                    <img class="allpics3" id="fram3_alt" src="aogpics/framing3.png">
+                </div>
+            <br>
+                <div class="fram_pic_controls_container" id="fram_pic_controls_container_alt">
+                    <button class="prev_concrete" id="prev_framing_button"><img class="prev_concrete_img" src="aogpics/previous.png"></button>
+                    <button class="next_concrete" id="next_framing_button"><img class="next_concrete_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="painting_main_container" id="painting_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Paint</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design will deliver high quality paint jobs to your home!</p>
+            </div>
+            <div class="paint_pic_container" id="paint_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="paint1_alt" src="aogpics/paint1.png">
+                    <img class="allpics2" id="paint2_alt" src="aogpics/paint2.png">
+                </div>
+            <br>
+                <div class="paint_pic_controls_container" id="paint_pic_controls_container_alt">
+                    <button class="prev_concrete" id="prev_painting_button"><img class="prev_concrete_img" src="aogpics/previous.png"></button>
+                    <button class="next_concrete" id="next_painting_button"><img class="next_concrete_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="flooring_main_container" id="flooring_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Flooring</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design has experience in floor remodeling, they have completed many jobs for residential flooring remodels.</p>
+            </div>
+            <div class="floor_pic_container" id="floor_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="floor1_alt" src="aogpics/flooring1.png">
+                    <img class="allpics2" id="floor2_alt" src="aogpics/flooring2.png">
+                    <img class="allpics3" id="floor3_alt" src="aogpics/flooring3.png">
+                </div>
+            <br>
+                <div class="floor_pic_controls_container" id="floor_pic_controls_container_alt">
+                    <button class="prev_concrete" id="prev_flooring_button"><img class="prev_concrete_img" src="aogpics/previous.png"></button>
+                    <button class="next_concrete" id="next_flooring_button"><img class="next_concrete_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="landscape_main_container" id="landscape_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Landscape</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design will help install custom landscape design to your yard; fences, decks, and more!</p>
+            </div>
+            <div class="land_pic_container" id="land_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="land1_alt" src="aogpics/land1.png">
+                    <img class="allpics2" id="land2_alt" src="aogpics/land2.png">
+                    <img class="allpics3" id="land3_alt" src="aogpics/land3.png">
+                </div>
+            <br>
+                <div class="land_pic_controls_container" id="land_pic_controls_container_alt">
+                    <button class="prev_concrete" id="prev_landscape_button"><img class="prev_concrete_img" src="aogpics/previous.png"></button>
+                    <button class="next_concrete" id="next_landscape_button"><img class="next_concrete_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="tile_main_container" id="tile_main_container_alt">
+            <div class="roof_desc_container" id="roof_desc_container_alt">
+                <h6 class="all_headings" id="all_headings_alt">Tile</h6>
+                <p class="all_desc" id="all_desc_alt">AOG Design installs new tile for shower, kitchen backsplash, outdoor, and more!</p>
+            </div>
+            <div class="tile_pic_container" id="tile_pic_container_alt">
+                <div class="roof_pic_switch_container" id="roof_pic_switch_container_alt">
+                    <img class="allpics1" id="tile1_alt" src="aogpics/tile1.png">
+                    <img class="allpics2" id="tile2_alt" src="aogpics/tile2.png">
+                    <img class="allpics3" id="tile3_alt" src="aogpics/tile3.png">
+                </div>
+            <br>
+                <div class="tile_pic_controls_container" id="tile_pic_controls_container_alt">
+                    <button class="prev_concrete" id="prev_tile_button"><img class="prev_concrete_img" src="aogpics/previous.png"></button>
+                    <button class="next_concrete" id="next_tile_button"><img class="next_concrete_img" src="aogpics/next.png"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery_main_container" id="gallery_main_container_alt">
+        <h1 class="gallery_heading" id="gallery_heading_alt">AOG Design Gallery</h1>
+        <br>
+        <div class="gallery_maininner_container" id="gallery_maininner_container_alt">
+            <div class="gal_row1" id="all_gal_row_alt">
+                <img class="galler_pic_1" id="galler_pic_1_alt" src="aogpics/aogdesigngallery/galpic1.png">
+                <img class="galler_pic_2" id="galler_pic_2_alt" alt="galler_pic_2_alt" src="aogpics/aogdesigngallery/galpic2.png">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="gal_row2" id="all_gal_row_alt">
+                <img class="galler_pic_3" id="galler_pic_3_alt" src="aogpics/aogdesigngallery/galpic3.png">
+                <img class="galler_pic_4" id="galler_pic_4_alt" src="aogpics/aogdesigngallery/galpic4.png">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="gal_row3" id="all_gal_row_alt">
+                <img class="galler_pic_5" id="galler_pic_5_alt" src="aogpics/aogdesigngallery/galpic5.png">
+                <img class="galler_pic_6" id="galler_pic_6_alt" src="aogpics/aogdesigngallery/galpic6.png">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="gal_row4" id="all_gal_row_alt">
+                <img class="galler_pic_7" id="galler_pic_7_alt" src="aogpics/aogdesigngallery/galpic7.png">
+                <img class="galler_pic_8" id="galler_pic_8_alt" src="aogpics/aogdesigngallery/galpic8.png">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="gal_row5" id="all_gal_row_alt">
+                <img class="galler_pic_9" id="galler_pic_9_alt" src="aogpics/aogdesigngallery/galpic9.png">
+                <img class="galler_pic_10" id="galler_pic_10_alt"src="aogpics/aogdesigngallery/galpic10.png">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="gal_row6" id="all_gal_row_alt">
+                <img class="galler_pic_11" id="galler_pic_11_alt"src="aogpics/aogdesigngallery/galpic11.png">
+                <img class="galler_pic_12" id="galler_pic_12_alt" src="aogpics/aogdesigngallery/galpic12.png">
+            </div>
+        </div>
+    </div>
+        <br>
+            <br>
+                <br>
+    <footer class="main_foot" id="main_foot_alt">
+        <br>
+        <p class="auth_note_and_last_update">Developed by Jackson Zenisek<br>
+        Last Updated: 04/13/2025
+        </p>
+    </footer>
+</html>
+
+<script>
+const roofpicdivs = document.querySelectorAll('#roof1_alt,#roof2_alt,#roof3_alt');
+const previousroofpicsbutton = document.getElementById('prev_roof_button');
+const nextroofpicsbutton = document.getElementById('next_roof_button');
+let currentIndex = 0;
+
+function showroofpicdiv1(index){
+    roofpicdivs.forEach(div => div.style.display = 'none');
+    roofpicdivs[index].style.display = 'block';
+}
+
+nextroofpicsbutton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % roofpicdivs.length;
+    showroofpicdiv1(currentIndex);
+
+    
+});
+showroofpicdiv1(currentIndex);
+
+previousroofpicsbutton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + roofpicdivs.length) % roofpicdivs.length;
+    showroofpicdiv1(currentIndex);
+
+});
+showroofpicdiv1(currentIndex);
+</script>
+
+<script>
+    const drywallpicdivs = document.querySelectorAll('#drywall1_alt,#drywall2_alt,#drywall3_alt');
+    const previousdrywallpicsbutton = document.getElementById('prev_drywall_button');
+    const nextdrywallpicsbutton = document.getElementById('next_drywall_button');
+    let currentIndex2 = 0;
+    
+    function showdrywallpicdiv1(index){
+        drywallpicdivs.forEach(div => div.style.display = 'none');
+        drywallpicdivs[index].style.display = 'block';
+    }
+    
+    nextdrywallpicsbutton.addEventListener('click', () => {
+        currentIndex2 = (currentIndex2 + 1) % drywallpicdivs.length;
+        showdrywallpicdiv1(currentIndex2);
+    
+        
+    });
+    showdrywallpicdiv1(currentIndex2);
+    
+    previousdrywallpicsbutton.addEventListener('click', () => {
+        currentIndex2 = (currentIndex2 - 1 + drywallpicdivs.length) % drywallpicdivs.length;
+        showdrywallpicdiv1(currentIndex2);
+    
+    });
+    showdrywallpicdiv1(currentIndex2);
+    </script>
+
+<script>
+    const framingpicdivs = document.querySelectorAll('#fram1_alt,#fram2_alt,#fram3_alt');
+    const previousframingpicsbutton = document.getElementById('prev_framing_button');
+    const nextframingpicsbutton = document.getElementById('next_framing_button');
+    let currentIndex3 = 0;
+    
+    function showframingpicdiv1(index){
+        framingpicdivs.forEach(div => div.style.display = 'none');
+        framingpicdivs[index].style.display = 'block';
+    }
+    
+    nextframingpicsbutton.addEventListener('click', () => {
+        currentIndex3 = (currentIndex3 + 1) % framingpicdivs.length;
+        showframingpicdiv1(currentIndex3);
+    
+        
+    });
+    showframingpicdiv1(currentIndex3);
+    
+    previousframingpicsbutton.addEventListener('click', () => {
+        currentIndex3 = (currentIndex3 - 1 + framingpicdivs.length) % framingpicdivs.length;
+        showframingpicdiv1(currentIndex3);
+    
+    });
+    showframingpicdiv1(currentIndex3);
+    </script>
+
+<script>
+    const floorpicdivs = document.querySelectorAll('#floor1_alt,#floor2_alt,#floor3_alt');
+    const previousflooringpicsbutton = document.getElementById('prev_flooring_button');
+    const nextflooringpicsbutton = document.getElementById('next_flooring_button');
+    let currentIndex4 = 0;
+    
+    function showflooringpicdiv1(index){
+        floorpicdivs.forEach(div => div.style.display = 'none');
+        floorpicdivs[index].style.display = 'block';
+    }
+    
+    nextflooringpicsbutton.addEventListener('click', () => {
+        currentIndex4 = (currentIndex4 + 1) % floorpicdivs.length;
+        showflooringpicdiv1(currentIndex4);
+    
+        
+    });
+    showflooringpicdiv1(currentIndex4);
+    
+    previousflooringpicsbutton.addEventListener('click', () => {
+        currentIndex4 = (currentIndex4 - 1 + floorpicdivs.length) % floorpicdivs.length;
+        showflooringpicdiv1(currentIndex4);
+    
+    });
+    showflooringpicdiv1(currentIndex4);
+    </script>
+
+<script>
+    const tilepicdivs = document.querySelectorAll('#tile1_alt,#tile2_alt,#tile3_alt');
+    const previoustilepicsbutton = document.getElementById('prev_tile_button');
+    const nexttilepicsbutton = document.getElementById('next_tile_button');
+    let currentIndex5 = 0;
+    
+    function showtilepicdiv1(index){
+        tilepicdivs.forEach(div => div.style.display = 'none');
+        tilepicdivs[index].style.display = 'block';
+    }
+    
+    nexttilepicsbutton.addEventListener('click', () => {
+        currentIndex5 = (currentIndex5 + 1) % tilepicdivs.length;
+        showtilepicdiv1(currentIndex5);
+    
+        
+    });
+    showtilepicdiv1(currentIndex5);
+    
+    previoustilepicsbutton.addEventListener('click', () => {
+        currentIndex5 = (currentIndex5 - 1 + tilepicdivs.length) % tilepicdivs.length;
+        showtilepicdiv1(currentIndex5);
+    
+    });
+    showtilepicdiv1(currentIndex5);
+    </script>
+
+<script>
+    const landscapepicdivs = document.querySelectorAll('#land1_alt,#land2_alt,#land3_alt');
+    const previouslandscapepicsbutton = document.getElementById('prev_landscape_button');
+    const nextlandscapepicsbutton = document.getElementById('next_landscape_button');
+    let currentIndex6 = 0;
+    
+    function showlandpicdiv1(index){
+        landscapepicdivs.forEach(div => div.style.display = 'none');
+        landscapepicdivs[index].style.display = 'block';
+    }
+    
+    nextlandscapepicsbutton.addEventListener('click', () => {
+        currentIndex6 = (currentIndex6 + 1) % landscapepicdivs.length;
+        showlandpicdiv1(currentIndex6);
+    
+        
+    });
+    showlandpicdiv1(currentIndex6);
+    
+    previouslandscapepicsbutton.addEventListener('click', () => {
+        currentIndex6 = (currentIndex6 - 1 + landscapepicdivs.length) % landscapepicdivs.length;
+        showlandpicdiv1(currentIndex6);
+    
+    });
+    showlandpicdiv1(currentIndex6);
+    </script>
+
+<script>
+    const paintpicdivs = document.querySelectorAll('#paint1_alt,#paint2_alt');
+    const previouspaintpicsbutton = document.getElementById('prev_painting_button');
+    const nextpaintpicsbutton = document.getElementById('next_painting_button');
+    let currentIndex7 = 0;
+    
+    function showpaintpicdiv1(index){
+        paintpicdivs.forEach(div => div.style.display = 'none');
+        paintpicdivs[index].style.display = 'block';
+    }
+    
+    nextpaintpicsbutton.addEventListener('click', () => {
+        currentIndex7 = (currentIndex7 + 1) % paintpicdivs.length;
+        showpaintpicdiv1(currentIndex7);
+    
+        
+    });
+    showpaintpicdiv1(currentIndex7);
+    
+    previouspaintpicsbutton.addEventListener('click', () => {
+        currentIndex7 = (currentIndex7 - 1 + paintpicdivs.length) % paintpicdivs.length;
+        showpaintpicdiv1(currentIndex7);
+    
+    });
+    showpaintpicdiv1(currentIndex7);
+    </script>
+
+<script>
+    const concretepicdivs = document.querySelectorAll('#conc1_alt,#conc2_alt');
+    const previousconcretepicsbutton = document.getElementById('prev_concrete_button');
+    const nextconcretepicsbutton = document.getElementById('next_concrete_button');
+    let currentIndex8 = 0;
+    
+    function showconcretepicdiv1(index){
+        concretepicdivs.forEach(div => div.style.display = 'none');
+        concretepicdivs[index].style.display = 'block';
+    }
+    
+    nextconcretepicsbutton.addEventListener('click', () => {
+        currentIndex8 = (currentIndex8 + 1) % concretepicdivs.length;
+        showconcretepicdiv1(currentIndex8);
+    
+        
+    });
+    showconcretepicdiv1(currentIndex8);
+    
+    previousconcretepicsbutton.addEventListener('click', () => {
+        currentIndex8 = (currentIndex8 - 1 + concretepicdivs.length) % concretepicdivs.length;
+        showconcretepicdiv1(currentIndex8);
+    
+    });
+    showconcretepicdiv1(currentIndex8);
+    </script>
