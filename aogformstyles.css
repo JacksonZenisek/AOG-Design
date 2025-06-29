@@ -18,6 +18,16 @@ div.intro_form_container{
 
 h1.intro_form_heading{
     text-align:center;
+    font-size:60px;
+}
+
+div.intro_form_pic_background{
+    height:auto;
+    width:auto;
+    background-color:rgb(82, 40, 40);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
 }
 
 img.intro_form_pic_heading{
