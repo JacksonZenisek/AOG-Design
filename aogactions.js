@@ -84,14 +84,20 @@ function featuredpicstimer(){
     }
 };
 
-function dis_serv_list(){
-    let a = document.getElementById("options_container_alt");
-    
-    if(a.style.display === "none"){
-        a.style.display = "block";
-    }else{
-        a.style.display = "none";
-    }
+function show_dis_serv_list(){
+    document.getElementById("options_container_alt").style.height = "525px";
+};
+
+function hide_dis_serv_list(){
+    document.getElementById("options_container_alt").style.height = "0px";
+};
+
+function continueshowing_dis_serv_list(){
+    document.getElementById("options_container_alt").style.height = "525px";
+};
+
+function stopshowing_dis_serv_list(){
+    document.getElementById("options_container_alt").style.height = "0px";
 };
 
 function show_about_page(){
@@ -150,14 +156,14 @@ function gotoroofing(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
     }
     document.body.scrollTop = 250;
@@ -176,14 +182,14 @@ function gotodrywall(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -203,14 +209,14 @@ function gotoconcrete(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -230,14 +236,14 @@ function gotoframing(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -257,14 +263,14 @@ function gotopainting(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -284,14 +290,14 @@ function gotoflooring(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -311,14 +317,14 @@ function gotolandscape(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -338,14 +344,14 @@ function gototile(){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }else{
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
-        d.style.display = "none";
+        d.style.display = "hidden";
         e.style.display = "none";
         f.style.display = "none";
     }
@@ -440,4 +446,4 @@ function showmobileservices(){
             d.style.display = "none";
             e.style.display = "none";
     }
-}
+}w
