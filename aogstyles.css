@@ -2,6 +2,10 @@ body.main_body{
     background-color:rgb(219, 204, 184);
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 button.btt_button{
     background-color:transparent;
     border:1px solid transparent;
@@ -99,12 +103,13 @@ button.serv_b:hover{
 }
 
 div.options_container{
-    height:500px;
+    height:0;
     width:250px;
     background-color:rgb(82, 40, 40);
     margin-left:175px;
     position:relative;
-    display:none;
+    overflow-y:hidden;
+    transition:0.5s;
 }
 
 button.all_tabs{
@@ -175,6 +180,21 @@ button.cu_b{
 button.cu_b:hover{
     cursor:pointer;
     opacity:70%;
+}
+
+button.cu_b_mobile{
+    margin-left:100px;
+    height:50px;
+    width:120px;
+    font-size:20px;
+    border:2px solid white;
+    border-radius:3px;
+    background-color:rgb(255, 184, 91);
+    color:rgb(59, 58, 58);
+    transition:0.3s;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
 }
 
 /**home page div**/
@@ -1129,7 +1149,7 @@ iframe.reviews_section{
 }
 
 footer.main_foot{
-    height:150px;
+    height:200px;
     width:auto;
     margin:-8px;
     background-color:rgb(82, 40, 40);
@@ -1257,7 +1277,6 @@ button.gallery_about{
     font-size:60px;
     margin-top:50px;
 }
-
 
 /**Media Querries**/
 
@@ -1833,5 +1852,22 @@ button.gallery_about{
 @media (max-width:1300px){
     #num_2_alt{
         margin-top:10px;
+    }
+}
+
+@media (max-width:1350px){
+    #cu_b_mobile_alt{
+    margin-left:100px;
+    height:100px;
+    width:200px;
+    font-size:25px;
+    border:2px solid white;
+    border-radius:3px;
+    background-color:rgb(255, 184, 91);
+    color:rgb(59, 58, 58);
+    transition:0.3s;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
     }
 }
