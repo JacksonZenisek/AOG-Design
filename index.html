@@ -9,7 +9,7 @@
         <meta name="author" content="Jackson Zenisek">
         <meta name="Languages" content="html, css, js, php">
     </head>
-    <body class="main_body"></body>
+    <body class="main_body" id="main_body_alt">
     <button class="btt_button" id="btt_button_alt" onclick="gototopofpage()"><img class="btt_symb" id="btt_symb_alt" src="aogpics/bttimg-removebg-preview.png"></button>
     <header class="top_header_sec">
         <div class="main_top_container">
@@ -30,6 +30,12 @@
                 <br>
                     <br>
                 <button class="gallery_about" id="services_about_alt" onclick="showmobilegallery()">Gallery</button>
+                <br>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="cu_b_mobile" id="cu_b_mobile_alt" target="_blank" onclick="document.location='aogform.html'" onclick="proceed_to_form_page()" title="Go to Contact Us Form">Contact Us</button>
             </div>
             <button class="mobile_open_menu" id="mobile_open_menu_alt" onclick="openmobilemenu()">
                 <div class="op1"></div>
@@ -39,11 +45,11 @@
                 <div class="op3"></div>
             </button>
             <div class="tabs_container" id="tabs_container_alt">
-                <button class="about_b" onclick="show_about_page()">About</button>
-                <button class="serv_b" onclick="dis_serv_list()">Services<div class="arr_1"></div><div class="arr_2"></div></button>
-                <button class="gal_b" onclick="show_gal_page()">Gallery</button>
-               <button class="cu_b" target="_blank" onclick="document.location='aogform.html'" onclick="proceed_to_form_page()">Contact Us</button>
-               <div class="options_container" id="options_container_alt">
+                <button class="about_b" onclick="show_about_page()" title="Go to About Section">About</button>
+                <button class="serv_b" onmouseover="show_dis_serv_list()" onmouseout="hide_dis_serv_list()">Services<div class="arr_1"></div><div class="arr_2"></div></button>
+                <button class="gal_b" onclick="show_gal_page()" title="Go to Gallery Section">Gallery</button>
+               <button class="cu_b" target="_blank" onclick="document.location='aogform.html'" onclick="proceed_to_form_page()" title="Go to Contact Us Form">Contact Us</button>
+               <div class="options_container" id="options_container_alt" onmouseover="continueshowing_dis_serv_list()" onmouseout="stopshowing_dis_serv_list()">
                 <button class="all_tabs" onclick="gotoroofing()">Roofing</button>
                 <br>
                     <br>
@@ -143,7 +149,7 @@
         <br>
             <br>
         <div class="smed_links_container">
-            <a href="https://www.facebook.com/profile.php?id=100089460840065"><img class="fbook_ico" src="aogpics/fbookico.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100089460840065"><img class="fbook_ico" src="aogpics/fbookico.png" alt="facebook icon" title="Go to AOG Design Facebook Page"></a>
         </div>
         <br>
             <br>
@@ -356,6 +362,11 @@
     </div>
     <div class="gallery_main_container" id="gallery_main_container_alt">
         <h1 class="gallery_heading" id="gallery_heading_alt">AOG Design Gallery</h1>
+        <div class="gallery_pic1_expanded_container" id="gallery_pic1_expanded_container_alt">
+            <br>
+                <br>
+                    <br>
+        </div>
         <br>
         <div class="gallery_maininner_container" id="gallery_maininner_container_alt">
             <div class="gal_row1" id="all_gal_row_alt">
@@ -405,9 +416,10 @@
     <footer class="main_foot" id="main_foot_alt">
         <br>
         <p class="auth_note_and_last_update">Developed by Jackson Zenisek<br>
-        Last Updated: 04/13/2025
+        Last Updated: 06/28/2025<br>&copy; 2025 AOG Design
         </p>
     </footer>
+    </body>
 </html>
 
 <script>
@@ -425,7 +437,6 @@ nextroofpicsbutton.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % roofpicdivs.length;
     showroofpicdiv1(currentIndex);
 
-    
 });
 showroofpicdiv1(currentIndex);
 
