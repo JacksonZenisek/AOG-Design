@@ -9,12 +9,19 @@
 
     <body class="form_main_body"></body>
     <div class="outer_form_container" id="outer_form_container_alt">
+        <br>
+            <br>
+                <br>
+                    <br>
+                        <br>
+                            <br>
         <div class="intro_form_container" id="intro_form_container_alt">
             <h1 class="intro_form_heading">Send us a message and we'll get back to you ASAP!</h1>
             <br>
                 <br>
-                    <br>
-            <img class="intro_form_pic_heading" src="aogpics/aog-removebg-preview.png">
+                    <div class="intro_form_pic_background">
+                        <img class="intro_form_pic_heading" src="aogpics/aog-removebg-preview.png">
+                    </div>
         </div>
     </div>
     <div class="middle_form_container" id="middle_form_container_alt">
@@ -26,7 +33,7 @@
                             <br>
                 <label class="f_name_lab">First name:</label>
                 <br>
-                <input class="f_name_in" name="fname" >
+                <input class="f_name_in" name="fname" required>
                 </div>
                 <div class="l_name_container">
                 <br>
@@ -34,16 +41,16 @@
                         <br>
                         <label class="l_name_lab">Last name:</label>
                     <br>
-                        <input class="l_name_in" name="lname">
+                        <input class="l_name_in" name="lname" required>
                     </div>
                     <br>
                         <br>
                     <div class="em_comtainer">
                         <label class="em_lab">Email:</label>
                     <br>
-                        <input class="em_in" type="email" name="email">
+                        <input class="em_in" type="email" name="email" required>
                         <br>
-                        <input type="text" name="_gotcha" style="display:none" />
+                        <input type="text" name="_gotcha" style="display:none"/>
                     </div>
                     <br>
                     <div class="mess_container">
@@ -52,7 +59,7 @@
                         <br>
                         <br>
                         <br>
-                        <textarea class="mess_box" type="text" name="message"></textarea>
+                        <textarea class="mess_box" type="text" name="message" required></textarea>
                         <br>
                         <br>
                     </div>
